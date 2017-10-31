@@ -7,7 +7,7 @@
     <scroller lock-x>
       <div>
         <div>{{msg}}</div>
-        <router-link to="second">to Second</router-link>
+        <router-link :to="{name: 'second', params: {id: 1}}">to Second</router-link>
         <div>
           Abby: 娇小可爱的女人，文静，令人喜爱，个性甜美。 Aimee: 意为可爱的人。 Alisa: 快乐的姑娘的意思。 Angelia: 天使，传送讯息者。Angelia被描绘为美丽，娇小的女子若不是有著甜美温柔的个性，即是活泼莽撞的女孩。
           Amanda: 其词根表示爱的意思。表示可爱的人。人们认为她保守美丽又纤细，甜美富有 Anne: 善良、优雅、喜欢帮助人的女孩.皇室的皇后、公主很多都是这个名字或者ANNIE，许多平民也都很喜欢这个名字。

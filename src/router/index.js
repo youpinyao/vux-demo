@@ -11,11 +11,11 @@ const router = new Router({
     redirect: '/home',
   }, {
     path: '/home',
-    name: 'Home',
+    name: 'home',
     component: Home,
   }, {
-    path: '/second',
-    name: 'Second',
+    path: '/second/:id',
+    name: 'second',
     component: Second,
   }],
 });
