@@ -46,7 +46,7 @@ export default function (store, router) {
 
   router.afterEach(() => {
     store.commit('updateLoadingStatus', {
-      isLoading: false,
+      isLoading: true,
     });
   });
 }

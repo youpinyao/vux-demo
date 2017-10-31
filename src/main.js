@@ -5,13 +5,14 @@ import {
   sync,
 } from 'vuex-router-sync';
 
-import 'vux/src/styles/index.less';
+import 'vux/src/styles/reset.less';
 import {
   ConfigPlugin,
   LocalePlugin,
   BusPlugin,
 } from 'vux';
 
+import './app.scss';
 import store from './store';
 import router from './router';
 import routerEach from './router/each';
